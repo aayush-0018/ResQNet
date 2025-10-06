@@ -1,0 +1,175 @@
+/* Disaster Management Registration Page — Light Theme */
+.register-wrapper {
+    min-height: 100vh;
+    background: #E6EEF7; /* Soft blue-gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+  }
+  
+  /* White Card Container */
+  .register-container {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    max-width: 480px;
+    width: 100%;
+    padding: 40px 32px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    color: #1f2937;
+  }
+  
+  /* Header */
+  .register-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .register-header h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #0074D9; /* Primary blue */
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+  
+  .register-header p {
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  
+  /* Form Layout */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+    color: #374151;
+    margin-bottom: 6px;
+  }
+  
+  /* Inputs and Selects */
+  .form-group input,
+  .form-group select {
+    background-color: #f9fafb !important;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px 12px;
+    color: #111827;
+    font-size: 0.95rem;
+    transition: border 0.2s, background-color 0.2s;
+  }
+  
+  /* On Focus */
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #0074D9;
+    background-color: #ffffff !important;
+    outline: none;
+  }
+  
+  /* Placeholder */
+  .form-group input::placeholder {
+    color: #9ca3af;
+    opacity: 0.9;
+  }
+  
+  /* Form Row */
+  .form-row {
+    display: flex;
+    gap: 16px;
+  }
+  
+  /* Success & Error */
+  .form-error,
+  .form-success {
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .form-error {
+    background: rgba(239, 68, 68, 0.1);
+    color: #b91c1c;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+  }
+  
+  .form-success {
+    background: rgba(16, 185, 129, 0.1);
+    color: #047857;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background: #E6EEF7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: #005bb5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 116, 217, 0.3);
+  }
+  
+  /* Back Button */
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: transparent;
+    color: #0074D9;
+    border: 1px solid #0074D9;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .back-btn:hover {
+    background: #0074D9;
+    color: white;
+    transform: translateY(-1px);
+  }
+
+  .already-login {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #1f2937;
+    margin-top: 16px;
+  }
+  
+  .already-login span {
+    color: #0074D9;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .already-login span:hover {
+    text-decoration: underline;
+  }
+  
+  
