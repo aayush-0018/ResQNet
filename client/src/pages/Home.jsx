@@ -38,50 +38,12 @@ function Home() {
         }
       />
 
-      <Route
-        path="/form"
-        element={
-          <ProtectedRoute>
-            <ResourceAllocationForm />
-          </ProtectedRoute>
-        }
-      />
-
-      <Route
-        path="/resource-loading"
-        element={
-          <ProtectedRoute>
-            <ResourceAllocationLoading />
-          </ProtectedRoute>
-        }
-      />
-
-      <Route
-        path="/resource-success"
-        element={
-          <ProtectedRoute>
-            <ResourceAllocationSuccess />
-          </ProtectedRoute>
-        }
-      />
-
-      <Route
-        path="/emergency"
-        element={
-          <ProtectedRoute>
-            <EmergencySOS userId="user12345" />
-          </ProtectedRoute>
-        }
-      />
-
-      <Route
-        path="/success"
-        element={
-          <ProtectedRoute>
-            <EmergencySuccess />
-          </ProtectedRoute>
-        }
-      />
+      {/* Public routes (no protection) */}
+      <Route path="/form" element={<ResourceAllocationForm />} />
+      <Route path="/resource-loading" element={<ResourceAllocationLoading />} />
+      <Route path="/resource-success" element={<ResourceAllocationSuccess />} />
+      <Route path="/emergency" element={<EmergencySOS userId="user12345" />} />
+      <Route path="/success" element={<EmergencySuccess />} />
     </Routes>
   );
 }
