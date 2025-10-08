@@ -5,7 +5,9 @@ let listeners = [];
 export const connectWorkerWS = (userId) => {
   if (socket && socket.readyState === WebSocket.OPEN) return socket;
 
-  socket = new WebSocket("ws://localhost:8082"); // 🔹 your worker WS server
+  let url = import.meta.env.VITE_WS_URL || "ws://localhost:8082";
+
+  socket = new WebSocket(url); // 🔹 your worker WS server
 
   socket.onopen = () => {
     console.log("[WorkerWS] Connected");
