@@ -5,11 +5,12 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: '0.0.0.0', // 👈 ensures it's accessible on Render or Docker
-    port: 5173,      // default for local dev
+    host: '0.0.0.0',
+    port: 5173,
   },
   preview: {
-    host: '0.0.0.0', // 👈 ensures vite preview works on Render
-    port: 10000,     // matches your Render start command
+    host: '0.0.0.0',
+    port: 10000,
+    allowedHosts: ['resqnet-1-hsbq.onrender.com'], // 👈 add your Render host
   },
 })

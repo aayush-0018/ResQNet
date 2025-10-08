@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 10000 --host 0.0.0.0",
-    "start": "vite preview --port 10000 --host 0.0.0.0"
+    "start": "serve -s dist -l 10000"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
