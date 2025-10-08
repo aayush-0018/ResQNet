@@ -19,8 +19,8 @@ export const initWorkerNotificationWS = async (server) => {
     const sub = getSubClient();
 
     // Create a separate server for worker notifications to avoid conflicts
-    wssWorker = new WebSocketServer({ port: 8082 });
-
+    wssWorker = new WebSocketServer({ server, path: "/worker" });
+    log("connected");
     wssWorker.on("connection", (ws) => {
       log("🔗 [WorkerWS] New client connected");
       ws.on("message", (msg) => {
