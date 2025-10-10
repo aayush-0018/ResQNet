@@ -11,7 +11,6 @@
 | 💻 **Client** | Frontend interface (React/Vite) | [https://resqnet-0.onrender.com](https://resqnet-0.onrender.com) 
 
 > ⚠️ **Important Disclaimer:**  
-> All services are hosted on **Render’s free tier**, which may enter a temporary sleep state after periods of inactivity.  
 > To ensure proper functionality:
 > 1. **Open each of the above links once** (Server, Worker, and Client) to wake them up.  
 > 2. **Wait for 30–60 seconds** for all services to fully initialize.  
