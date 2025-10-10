@@ -2,18 +2,20 @@
 # ResQNet — Community Emergency & Disaster Management Platform
 
 ---
-
 ## 🌐 Live Deployments
 
 | Service | Description | URL |
 |----------|--------------|-----|
 | 🧠 **Server** | REST API and core backend logic | [https://resqnet-server.onrender.com](https://resqnet-server.onrender.com) |
 | ⚙️ **Worker** | WebSocket + Redis-based worker layer | [https://resqnet-2-ighs.onrender.com](https://resqnet-2-ighs.onrender.com) |
-| 💻 **Client** | Frontend interface (React/Vite) | [https://resqnet-0.onrender.com](https://resqnet-0.onrender.com) |
+| 💻 **Client** | Frontend interface (React/Vite) | [https://resqnet-0.onrender.com](https://resqnet-0.onrender.com) 
 
-> 🧭 **Start with the Client URL** —  
-> 👉 [**https://resqnet-0.onrender.com**](https://resqnet-0.onrender.com)  
-> This is the main interface of the platform, internally connected to the Server and Worker layers.
+> ⚠️ **Important Disclaimer:**  
+> All services are hosted on **Render’s free tier**, which may enter a temporary sleep state after periods of inactivity.  
+> To ensure proper functionality:
+> 1. **Open each of the above links once** (Server, Worker, and Client) to wake them up.  
+> 2. **Wait for 30–60 seconds** for all services to fully initialize.  
+> 3. Then, access the platform via the **Client URL** for a smooth experience.
 
 ---
 
