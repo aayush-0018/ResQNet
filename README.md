@@ -55,6 +55,4 @@ You can view the full system architecture here:
 
 ---
 
-## 🧩 Project Structure
-
 
